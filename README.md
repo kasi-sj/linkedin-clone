@@ -1,6 +1,6 @@
 <div align='center'>
 
-<img src=https://www.canva.com/design/DAF9cF79XV8/63OrM9GpwTKyVmkWOCWmCA/edit?utm_content=DAF9cF79XV8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton alt="logo" width= height=1 />
+<img src="https://www.canva.com/design/DAF9cF79XV8/63OrM9GpwTKyVmkWOCWmCA/edit?utm_content=DAF9cF79XV8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" alt="logo" />
 
 <h1>LinkedIn</h1>
 <p>Hey there! Welcome to my linkedIn clone application for mobile, where you can do all the cool stuff you love about LinkedIn right from your phone. Made it with React Native and Expo Router to keep things super easy. Here's what you can do: Show off your skills(Profile ManageMent), meet awesome people (Network building), find your dream job (Search Job), chat with friends (Messaging), and stay updated with the latest news and trends in your field—all in our app! It's here to give you that LinkedIn vibe</p>
