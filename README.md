@@ -42,13 +42,13 @@
 
 ### :space_invader: Tech Stack
 <details> <summary>Client</summary> <ul>
-<li><a href="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3243981/expo-icon-md.png">Expo Router</a></li>
+<li><a href="https://expo.dev/">Expo(React Native)</a></li>
 </ul> </details>
 <details> <summary>Server</summary> <ul>
-<li><a href="https://w7.pngwing.com/pngs/872/442/png-transparent-node-js-javascript-react-firebase-icon-angle-text-trademark-thumbnail.png">Express</a></li>
+<li><a href="https://expressjs.com/">Express</a></li>
 </ul> </details>
 <details> <summary>Database</summary> <ul>
-<li><a href="https://th.bing.com/th/id/OIP.MRFiH6S--beHnGTmPGyd6AHaFq?rs=1&pid=ImgDetMain">MongoDB</a></li>
+<li><a href="https://www.mongodb.com/atlas/database">MongoDB</a></li>
 </ul> </details>
 
 ### :dart: Features
@@ -82,7 +82,13 @@ npm i
 ```
 Add the Environmental Variables
 ```bash
-EXPO_PUBLIC_BACKEND_URL, EXPO_PUBLIC_FIREBASE_API_KEY, EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN, EXPO_PUBLIC_FIREBASE_PROJECT_ID, EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET, EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID, EXPO_PUBLIC_FIREBASE_APP_ID,
+EXPO_PUBLIC_BACKEND_URL,
+EXPO_PUBLIC_FIREBASE_API_KEY,
+EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN,
+EXPO_PUBLIC_FIREBASE_PROJECT_ID,
+EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET,
+EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+EXPO_PUBLIC_FIREBASE_APP_ID,
 ```
 Run the App in development server
 ```bash
