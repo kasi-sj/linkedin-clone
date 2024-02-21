@@ -1,0 +1,41 @@
+{
+  "cli": {
+    "version": ">= 7.1.2"
+  },
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "test": {
+      "env": {
+        "EXPO_PUBLIC_BACKEND_URL": process.env.EXPO_PUBLIC_BACKEND_URL,
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyDFo_1ors04j59IdFkNENoCM72XtBwfaAM",
+        "EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN": "linkedin-b3a81.firebaseapp.com",
+        "EXPO_PUBLIC_FIREBASE_PROJECT_ID": "linkedin-b3a81",
+        "EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET": "linkedin-b3a81.appspot.com",
+        "EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID": "583370507409",
+        "EXPO_PUBLIC_FIREBASE_APP_ID": "1:583370507409:web:0179999fb937cad0b4eb30"
+      }
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_BACKEND_URL": process.env.EXPO_PUBLIC_BACKEND_URL,
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyDFo_1ors04j59IdFkNENoCM72XtBwfaAM",
+        "EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN": "linkedin-b3a81.firebaseapp.com",
+        "EXPO_PUBLIC_FIREBASE_PROJECT_ID": "linkedin-b3a81",
+        "EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET": "linkedin-b3a81.appspot.com",
+        "EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID": "583370507409",
+        "EXPO_PUBLIC_FIREBASE_APP_ID": "1:583370507409:web:0179999fb937cad0b4eb30"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

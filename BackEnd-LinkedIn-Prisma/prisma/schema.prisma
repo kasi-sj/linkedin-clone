@@ -1,0 +1,232 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                     String   @id @default(auto()) @map("_id") @db.ObjectId
+  name                   String   @default("")
+  firstName              String   @default("")
+  lastName               String   @default("")
+  additionalName         String   @default("")
+  pronouns               String?  @default("")
+  headline               String?  @default("")
+  industry               String?  @default("")
+  city                   String?  @default("")
+  country                String?  @default("")
+  email                  String   @unique
+  password               String
+  verified               Boolean? @default(false)
+  verificationToken      String?  @default("")
+  profileImage           String?  @default("")
+  userDescription        String?  @default("")
+  connections            String[] @default([])
+  connectionRequests     String[] @default([])
+  sentConnectionRequests String[] @default([])
+  posts                  String[] @default([])
+  comments               String[] @default([])
+  likes                  String[] @default([])
+  createdAt              DateTime @default(now())
+  updatedAt              DateTime @default(now()) @updatedAt
+  contact                String?
+  address                String?
+  banner                 String?  @default("")
+  messageRooms           String[] @default([])
+  education              String[] @default([])
+  notifications          String[] @default([])
+  isNewNotification      Boolean  @default(false)
+  expoPushToken         String?  @default("")
+}
+
+model Room {
+  id              String    @id @default(auto()) @map("_id") @db.ObjectId
+  user1Id         String
+  user2Id         String
+  messages        Message[]
+  isnewMessage    Boolean   @default(false)
+  newMessage      String?   @default("")
+  time            DateTime? @default(now())
+  updatedAt       DateTime? @default(now()) @updatedAt
+  noOfNewMessages Int       @default(0)
+}
+
+model Message {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  imageUrl  String?  @default("")
+  text      String?  @default("")
+  createdAt DateTime @default(now())
+  roomId    String   @db.ObjectId
+  userId    String   @db.ObjectId
+  messages  String[] @default([])
+  Room      Room     @relation(fields: [roomId], references: [id])
+}
+
+model Contact {
+  id          String    @id @default(auto()) @map("_id") @db.ObjectId
+  email       String?   @default("")
+  phone       String?   @default("")
+  websiteId   String[]  @db.ObjectId
+  birthday    DateTime?
+  discription String?   @default("")
+  createdAt   DateTime? @default(now())
+  updatedAt   DateTime? @default(now()) @updatedAt
+}
+
+model Website {
+  id          String    @id @default(auto()) @map("_id") @db.ObjectId
+  websiteUrl  String?   @default("")
+  websiteType String?   @default("")
+  createdAt   DateTime? @default(now())
+  updatedAt   DateTime? @default(now()) @updatedAt
+}
+
+model Education {
+  id           String    @id @default(auto()) @map("_id") @db.ObjectId
+  schoolName   String?   @default("")
+  degree       String?   @default("")
+  fieldOfStudy String?   @default("")
+  grade        String?   @default("")
+  activities   String?   @default("")
+  startDate    DateTime? @default(now())
+  endDate      DateTime? @default(now())
+  createdAt    DateTime? @default(now())
+  updatedAt    DateTime? @default(now()) @updatedAt
+  description  String?   @default("")
+  skills       String[]  @default([])
+  isCurrent    Boolean?  @default(false)
+  about        String?   @default("")
+}
+
+model Post {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  imageUrl    String   @default("")
+  mimiType    String   @default("")
+  description String   @default("")
+  likes       String[] @default([])
+  comments    String[] @default([])
+  createdAt   DateTime @default(now())
+  authorId    String
+}
+
+model Comment {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  text      String   @default("")
+  createdAt DateTime @default(now())
+  authorId  String
+  comments  String[] @default([])
+  likes     String[] @default([])
+}
+
+model notification {
+  id       String @id @default(auto()) @map("_id") @db.ObjectId
+  title    String? @default("")
+  message  String? @default("")
+  authorId String
+  receiverId String
+  createdAt DateTime @default(now())
+  read     Boolean @default(false)
+  postId   String? @default("")
+  commentId String? @default("")
+  type     String? @default("")
+}
+
+model ApplyOption {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  apply_link String?
+  is_direct  Boolean?
+  publisher  String?
+
+  // Reference to the Job model
+  jobId String @unique @db.ObjectId
+  job   Job    @relation(fields: [jobId], references: [id])
+}
+
+model JobHighlights {
+  id               String   @id @default(auto()) @map("_id") @db.ObjectId
+  qualifications   String[]
+  responsibilities String[]
+  benefits         String[]
+
+  // Reference to the Job model
+  jobId String @unique @db.ObjectId
+  job   Job    @relation(fields: [jobId], references: [id])
+}
+
+model JobRequiredEducation {
+  id                                   String   @id @default(auto()) @map("_id") @db.ObjectId
+  associates_degree                    Boolean?
+  bachelors_degree                     Boolean?
+  degree_mentioned                     Boolean?
+  degree_preferred                     Boolean?
+  high_school                          Boolean?
+  postgraduate_degree                  Boolean?
+  professional_certification           Boolean?
+  professional_certification_mentioned Boolean?
+
+  // Reference to the Job model
+  jobId String @unique @db.ObjectId
+  job   Job    @relation(fields: [jobId], references: [id])
+}
+
+model JobRequiredExperience {
+  id                            String   @id @default(auto()) @map("_id") @db.ObjectId
+  experience_mentioned          Boolean?
+  experience_preferred          Boolean?
+  no_experience_required        Boolean?
+  required_experience_in_months Int?
+
+  // Reference to the Job model
+  jobId String @unique @db.ObjectId
+  job   Job    @relation(fields: [jobId], references: [id])
+}
+
+model Job {
+  id                                   String    @id @default(auto()) @map("_id") @db.ObjectId
+  job_id                               String    @unique
+  employer_company_type                String?
+  employer_logo                        String?
+  employer_name                        String?
+  employer_website                     String?
+  job_apply_is_direct                  Boolean
+  job_apply_link                       String?
+  job_apply_quality_score              Float?
+  job_benefits                         String[]
+  job_city                             String?
+  job_country                          String?
+  job_description                      String?
+  job_employment_type                  String?
+  job_experience_in_place_of_education Boolean?
+  job_google_link                      String?
+  job_is_remote                        Boolean?
+  job_job_title                        String?
+  job_latitude                         Float?
+  job_longitude                        Float?
+  job_max_salary                       Int?
+  job_min_salary                       Int?
+  job_offer_expiration_datetime_utc    DateTime?
+  job_offer_expiration_timestamp       Int?
+  job_onet_job_zone                    String?
+  job_onet_soc                         String?
+  job_posted_at_datetime_utc           DateTime?
+  job_posted_at_timestamp              Int?
+  job_posting_language                 String?
+  job_publisher                        String?
+  job_required_skills                  String[]
+  job_salary_currency                  String?
+  job_salary_period                    String?
+  job_state                            String?
+  job_title                            String?
+
+  // Relationships
+  apply_options           ApplyOption[]
+  job_highlights          JobHighlights?
+  job_required_education  JobRequiredEducation?
+  job_required_experience JobRequiredExperience?
+}

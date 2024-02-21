@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "linkedin",
+    "slug": "linkedin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/linkedinicon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kasinathansj.linkedin"
+    },
+    "android": {
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "INTERNET"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/linkedinicon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.kasinathansj.linkedin"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b4fa7ef5-6497-4ff8-a34a-477aea8b6c3e"
+      }
+    }
+  }
+}
