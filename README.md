@@ -105,7 +105,7 @@ npm start
 
 ## :handshake: Contact
 
-kasi nathan s j - -
+kasinathansj@gmail.com
 
 Project Link: [https://github.com/kasi-sj/linkedin-clone](https://github.com/kasi-sj/linkedin-clone)
 
