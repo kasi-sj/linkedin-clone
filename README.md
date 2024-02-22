@@ -17,9 +17,10 @@
 
 
 ## :star2: About the Project
+![alt text](<Dark Blue Gradient Travel Banner Landscape (1).jpg>)
 
 ### :camera: Screenshots
-
+![alt text](screenshots/1bd02ae4-0904-4cc4-bf1a-14498b41859c.jpg) ![alt text](screenshots/2cc6e064-6070-4525-89c1-74e0bca4b3ef.jpg) ![alt text](screenshots/7f33a95d-a2cd-4060-a9b7-e197136cbb4e.jpg) ![alt text](screenshots/9b737de8-bc45-4452-aa4d-b3cfcb403bf1.jpg) ![alt text](screenshots/20ec9be3-b750-41bf-bcf0-330ef22c78c2.jpg) ![alt text](screenshots/581fee80-4858-458f-96f5-2edc7e86e33a.jpg) ![alt text](screenshots/1495a351-0fd2-4fe9-9b9e-06b975974389.jpg) ![alt text](screenshots/8740ac9f-17c6-4efa-9d45-1a1d783e05d2.jpg) ![alt text](screenshots/58024eee-bcd0-4f04-8982-3660c92abce2.jpg) ![alt text](screenshots/738194b1-3353-4a35-b0c6-0d5463b05a0f.jpg) ![alt text](screenshots/95644545-f7b1-4521-a5c0-e8728c914004.jpg) ![alt text](screenshots/ad1e77f2-cadc-46d1-af48-f8f229b9678f.jpg) ![alt text](screenshots/baa8154b-1f50-4674-86c9-0eee08bae2e4.jpg) ![alt text](screenshots/c4c3c9c0-15b1-4d81-9a16-8f253cc5c369.jpg) ![alt text](screenshots/d6d6aebb-d545-4017-900b-476e1c4480a7.jpg) ![alt text](<screenshots/Dark Blue Gradient Travel Banner Landscape.png>) ![alt text](screenshots/e2e7c9c9-05cd-46e3-a3c8-7371f683cae1.jpg) ![alt text](screenshots/eba664d2-9e71-411a-92a8-7e02c46d773b.jpg) ![alt text](screenshots/f32408ad-17ed-4e07-89c3-b632cc717679.jpg)
 
 ### :space_invader: Tech Stack
 <details> <summary>Client</summary> <ul>
