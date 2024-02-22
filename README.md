@@ -44,9 +44,6 @@
 |:-------------:|:-------------:|:-------------:|
 | ![Screenshot 16](screenshots/e2e7c9c9-05cd-46e3-a3c8-7371f683cae1.jpg) | ![Screenshot 17](screenshots/eba664d2-9e71-411a-92a8-7e02c46d773b.jpg) | ![Screenshot 18](screenshots/f32408ad-17ed-4e07-89c3-b632cc717679.jpg) |
 
-| Screenshot 19 |
-|:-------------:|
-| ![Screenshot 19](screenshots/Dark Blue Gradient Travel Banner Landscape.png) |
 
 
 ### :space_invader: Tech Stack
