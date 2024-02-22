@@ -1,3 +1,17 @@
+<style>
+    .grid-container {
+        background-color: #f2f2f2;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .grid-item {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+</style>
 <div align='center'>
 
 
@@ -20,29 +34,38 @@
 ![alt text](<Dark Blue Gradient Travel Banner Landscape (1).jpg>)
 
 ### :camera: Screenshots
-| Screenshot 1 | Screenshot 2 | Screenshot 3 |
-|:------------:|:------------:|:------------:|
-| ![Screenshot 1](screenshots/1bd02ae4-0904-4cc4-bf1a-14498b41859c.jpg) | ![Screenshot 2](screenshots/2cc6e064-6070-4525-89c1-74e0bca4b3ef.jpg) | ![Screenshot 3](screenshots/7f33a95d-a2cd-4060-a9b7-e197136cbb4e.jpg) |
-
-| Screenshot 4 | Screenshot 5 | Screenshot 6 |
-|:------------:|:------------:|:------------:|
-| ![Screenshot 4](screenshots/9b737de8-bc45-4452-aa4d-b3cfcb403bf1.jpg) | ![Screenshot 5](screenshots/20ec9be3-b750-41bf-bcf0-330ef22c78c2.jpg) | ![Screenshot 6](screenshots/581fee80-4858-458f-96f5-2edc7e86e33a.jpg) |
-
-| Screenshot 7 | Screenshot 8 | Screenshot 9 |
-|:------------:|:------------:|:------------:|
-| ![Screenshot 7](screenshots/1495a351-0fd2-4fe9-9b9e-06b975974389.jpg) | ![Screenshot 8](screenshots/8740ac9f-17c6-4efa-9d45-1a1d783e05d2.jpg) | ![Screenshot 9](screenshots/58024eee-bcd0-4f04-8982-3660c92abce2.jpg) |
-
-| Screenshot 10 | Screenshot 11 | Screenshot 12 |
-|:-------------:|:-------------:|:-------------:|
-| ![Screenshot 10](screenshots/738194b1-3353-4a35-b0c6-0d5463b05a0f.jpg) | ![Screenshot 11](screenshots/95644545-f7b1-4521-a5c0-e8728c914004.jpg) | ![Screenshot 12](screenshots/ad1e77f2-cadc-46d1-af48-f8f229b9678f.jpg) |
-
-| Screenshot 13 | Screenshot 14 | Screenshot 15 |
-|:-------------:|:-------------:|:-------------:|
-| ![Screenshot 13](screenshots/baa8154b-1f50-4674-86c9-0eee08bae2e4.jpg) | ![Screenshot 14](screenshots/c4c3c9c0-15b1-4d81-9a16-8f253cc5c369.jpg) | ![Screenshot 15](screenshots/d6d6aebb-d545-4017-900b-476e1c4480a7.jpg) |
-
-| Screenshot 16 | Screenshot 17 | Screenshot 18 |
-|:-------------:|:-------------:|:-------------:|
-| ![Screenshot 16](screenshots/e2e7c9c9-05cd-46e3-a3c8-7371f683cae1.jpg) | ![Screenshot 17](screenshots/eba664d2-9e71-411a-92a8-7e02c46d773b.jpg) | ![Screenshot 18](screenshots/f32408ad-17ed-4e07-89c3-b632cc717679.jpg) |
+<div class="grid-container">
+    <div class="grid-item">
+        | Screenshot 1 | Screenshot 2 | Screenshot 3 |
+        |:------------:|:------------:|:------------:|
+        | ![Screenshot 1](screenshots/1bd02ae4-0904-4cc4-bf1a-14498b41859c.jpg) | ![Screenshot 2](screenshots/2cc6e064-6070-4525-89c1-74e0bca4b3ef.jpg) | ![Screenshot 3](screenshots/7f33a95d-a2cd-4060-a9b7-e197136cbb4e.jpg) |
+    </div>
+    <div class="grid-item">
+        | Screenshot 4 | Screenshot 5 | Screenshot 6 |
+        |:------------:|:------------:|:------------:|
+        | ![Screenshot 4](screenshots/9b737de8-bc45-4452-aa4d-b3cfcb403bf1.jpg) | ![Screenshot 5](screenshots/20ec9be3-b750-41bf-bcf0-330ef22c78c2.jpg) | ![Screenshot 6](screenshots/581fee80-4858-458f-96f5-2edc7e86e33a.jpg) |
+    </div>
+    <div class="grid-item">
+        | Screenshot 7 | Screenshot 8 | Screenshot 9 |
+        |:------------:|:------------:|:------------:|
+        | ![Screenshot 7](screenshots/1495a351-0fd2-4fe9-9b9e-06b975974389.jpg) | ![Screenshot 8](screenshots/8740ac9f-17c6-4efa-9d45-1a1d783e05d2.jpg) | ![Screenshot 9](screenshots/58024eee-bcd0-4f04-8982-3660c92abce2.jpg) |
+    </div>
+    <div class="grid-item">
+        | Screenshot 10 | Screenshot 11 | Screenshot 12 |
+        |:-------------:|:-------------:|:-------------:|
+        | ![Screenshot 10](screenshots/738194b1-3353-4a35-b0c6-0d5463b05a0f.jpg) | ![Screenshot 11](screenshots/95644545-f7b1-4521-a5c0-e8728c914004.jpg) | ![Screenshot 12](screenshots/ad1e77f2-cadc-46d1-af48-f8f229b9678f.jpg) |
+    </div>
+    <div class="grid-item">
+        | Screenshot 13 | Screenshot 14 | Screenshot 15 |
+        |:-------------:|:-------------:|:-------------:|
+        | ![Screenshot 13](screenshots/baa8154b-1f50-4674-86c9-0eee08bae2e4.jpg) | ![Screenshot 14](screenshots/c4c3c9c0-15b1-4d81-9a16-8f253cc5c369.jpg) | ![Screenshot 15](screenshots/d6d6aebb-d545-4017-900b-476e1c4480a7.jpg) |
+    </div>
+    <div class="grid-item">
+        | Screenshot 16 | Screenshot 17 | Screenshot 18 |
+        |:-------------:|:-------------:|:-------------:|
+        | ![Screenshot 16](screenshots/e2e7c9c9-05cd-46e3-a3c8-7371f683cae1.jpg) | ![Screenshot 17](screenshots/eba664d2-9e71-411a-92a8-7e02c46d773b.jpg) | ![Screenshot 18](screenshots/f32408ad-17ed-4e07-89c3-b632cc717679.jpg) |
+    </div>
+</div>
 
 
 
