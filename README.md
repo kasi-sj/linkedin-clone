@@ -28,7 +28,7 @@
 
 <h2>Demo</h2>
 
-![freecompress-Screenrecorder-2024-03-05-19-48-04-695](https://github.com/kasi-sj/linkedin-clone/assets/110708280/f8fc5356-c2aa-484f-a883-b38fb3fb8c35)
+![Demo](https://drive.google.com/file/d/1CD9dW9xP07d_11vvH-n3OTYFmCN8GM9U/view?usp=sharing)
 
 <video controls src="https://drive.google.com/file/d/1CD9dW9xP07d_11vvH-n3OTYFmCN8GM9U/view?usp=drive_link" style="display: block; margin-left: auto; margin-right: auto;" title="Demo"></video>
 
