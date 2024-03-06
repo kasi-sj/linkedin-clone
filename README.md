@@ -24,13 +24,13 @@
 
 
 ## :star2: About the Project
-![alt text](<Dark Blue Gradient Travel Banner Landscape (1).jpg>)
+![Banner](<Dark Blue Gradient Travel Banner Landscape (1).jpg>)
 
 <h2>Demo</h2>
+![Demo](https://github.com/kasi-sj/linkedin-clone/assets/110708280/6f6dd89f-dfbf-42b1-8d87-79f6ade94eda)
 
 ![Demo](https://drive.google.com/file/d/1CD9dW9xP07d_11vvH-n3OTYFmCN8GM9U/view?usp=sharing)
 
-<video controls src="https://drive.google.com/file/d/1CD9dW9xP07d_11vvH-n3OTYFmCN8GM9U/view?usp=drive_link" style="display: block; margin-left: auto; margin-right: auto;" title="Demo"></video>
 
 
 ### :camera: Screenshots
