@@ -93,7 +93,7 @@ https://github.com/kasi-sj/linkedin-clone
 ```
 Enter the Project Directory
 ```bash
-cd linkedin-clone
+cd FrontEnd-linkedin
 ```
 Install the dependencies
 ```bash
