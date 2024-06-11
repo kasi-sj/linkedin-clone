@@ -27,6 +27,7 @@
 ![Dark Blue Gradient Travel Banner Landscape (1).jpg](<Dark Blue Gradient Travel Banner Landscape (1).jpg>)
 
 <h2>Demo</h2>
+
 ![freecompress-Screenrecorder-2024-03-05-19-48-04-695 (1) (2) (1)](https://github.com/kasi-sj/linkedin-clone/assets/110708280/3f7c3036-58d8-4167-9276-b6fc20ac6a3d)
 
 
