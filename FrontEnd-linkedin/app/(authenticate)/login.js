@@ -140,7 +140,7 @@ const index = () => {
               color: "#041E42",
             }}
           >
-            Log in to Your Accont
+            Log in to Your Account
           </Text>
         </View>
         <View
